@@ -284,7 +284,7 @@ public class AutoFitEditText extends EditText {
     @Override
     public boolean onKeyPreIme(int keyCode, KeyEvent event) {
         return true;
-//        if (event.getKeyCode() == KeyEvent.KEYCODE_BACK
+//        if (event.getKeyCode() == KeyEdisvent.KEYCODE_BACK
 //                && event.getAction() == KeyEvent.ACTION_UP) {
 //            return true;
 //        }
