@@ -6,6 +6,7 @@ import android.content.res.Resources;
 import android.graphics.RectF;
 import android.graphics.Typeface;
 import android.os.Build;
+import android.support.v7.widget.AppCompatEditText;
 import android.text.Layout;
 import android.text.StaticLayout;
 import android.text.TextPaint;
@@ -18,7 +19,7 @@ import android.widget.EditText;
 /**
  * Created by varsovski on 29-Oct-15.
  */
-public class AutoFitEditText extends EditText {
+public class AutoFitEditText extends AppCompatEditText {
     private static final int NO_LINE_LIMIT = -1;
     private final RectF _availableSpaceRect = new RectF();
     private final SparseIntArray _textCachedSizes = new SparseIntArray();
